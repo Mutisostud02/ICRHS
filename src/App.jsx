@@ -3,6 +3,7 @@ import HomePage from "./pages/Homepage"
 import AboutPage from "./pages/Aboutpage"
 import Header from './components/Header'
 import FooterDetails from './components/footer'
+import GoogleMapComponent from "./pages/ContactPage"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -29,6 +30,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/about" element={<AboutPage/>}/>
+      <Route path="/contact" element={<GoogleMapComponent/>}/>
     </Routes>
     <FooterDetails/>
       <hr/>
