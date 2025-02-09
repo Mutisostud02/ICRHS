@@ -3,6 +3,20 @@ import HomePage from "./pages/Homepage"
 import AboutPage from "./pages/Aboutpage"
 import Header from './components/Header'
 import FooterDetails from './components/footer'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    }, [pathname]);
+
+    return null;
+}
+
+
 
 
 
@@ -10,6 +24,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop/>
     <Header/>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
