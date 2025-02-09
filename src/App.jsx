@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom"
+import HomePage from "./pages/Homepage"
+import AboutPage from "./pages/Aboutpage"
 import Header from './components/Header'
-import HomeOne from './components/home'
-import { HomeTwo, HomeThree } from './components/home'
 import FooterDetails from './components/footer'
 
 
@@ -9,100 +9,13 @@ import FooterDetails from './components/footer'
 function App() {
 
   return (
-    <>
+    <Router>
     <Header/>
-    <div className='intro'>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Iste obcaecati architecto reprehenderit veritatis provident
-         quasi repellat officiis perferendis corrupti ipsam alias, 
-         tempore, non quibusdam distinctio nostrum? Iste, eius! Qui, non?
-      </p>
-    </div>
-    <section className='section1'>
-    <HomeOne
-    src="/assets/icon-1.webp"
-    title="Make a Donation"
-    content = "Help support causes like fighting infant mortality, poverty, disease prevention and treatment (HIV/AIDS, TB, malaria, and trachoma), maternal and child healthcare, clean water management, women's rights, and sexual health awareness."
-    />
-    <HomeOne
-    src="/assets/icon-2.webp"
-    title="Make a Donation"
-    content = "We appreciate any support. Thank you to all of the NGOs and individual donors."
-    extraContent = "Become a fundraiser today and offer help to the people who need it most."
-    />
-    <HomeOne
-    src="/assets/icon-3.webp"
-    title="Make a Donation"
-    content = "Join our global team of volunteers, who are working to create self-sufficient communities in Kenya by helping ICROSS International with fundraising, web development, in-person help with the communities, and much more."
-    />
-    </section>
-    <section className='section2'>
-      <h2>Recent Causes</h2>
-      <p>Make a donation to support new initiatives for 2021 and beyond.</p>
-
-      <div className='section2group'>
-      <HomeTwo
-      stylez={{ 
-        backgroundImage: "url('/assets/aid1.webp')",
-        backgroundPosition: 'center',
-        backgroundSize:'cover'
-       }}
-      title="Laptops for School Children"
-      content="
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Expedita incidunt harum non modi illo. Necessitatibus 
-                  voluptatem pariatur maxime veniam?"
-                  
-      />
-      <HomeTwo
-      stylez={{ 
-        backgroundImage: "url('/assets/aid2.webp')",
-        backgroundPosition: 'center',
-        backgroundSize:'cover'
-       }}
-      title="Medical Clinic Outreach 4WD"
-      content="
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Expedita incidunt harum non modi illo. Necessitatibus 
-                  voluptatem pariatur maxime veniam?"
-      
-      />
-      <HomeTwo
-      stylez={{ 
-        backgroundImage: "url('/assets/aid3.webp')",
-        backgroundPosition: 'center',
-        backgroundSize:'cover'
-       }}
-      title="Women Livestock Development"
-      content="
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Expedita incidunt harum non modi illo. Necessitatibus 
-                  voluptatem pariatur maxime veniam?"
-      
-      />
-      </div>
-    </section>
-    <section className='section3'>
-      <HomeThree
-      src="/assets/person.webp"
-      size={50}
-      title="Michael Meegan"
-      content="Founder of ICRHS International"
-      />
-      <HomeThree
-      src="/assets/history.webp"
-      size={200}
-      title="Our History"
-      content="ICROSS began its work among pastoral communities in East Africa in 1979. For over 37 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS. Our core focus remains endangered pastoral communities"
-      />
-      <HomeThree
-      src="/assets/history2.webp"
-      size={200}
-      title="Our Mission"
-      content="Our goal is to reduce disease, suffering and poverty among the poorest of the poor. Our projects are implemented through the values and beliefs of the people themselves. Together we create self-reliance and work through long-term positive change towards sustainable self-supporting programmes."
-      />
-      </section>
-      <FooterDetails/>
+    <Routes>
+      <Route path="/" element={<HomePage/>}/>
+      <Route path="/about" element={<AboutPage/>}/>
+    </Routes>
+    <FooterDetails/>
       <hr/>
       <footer>
         <div>
@@ -114,7 +27,7 @@ function App() {
           <p>Report problem</p>
         </div>
       </footer>
-    </>
+    </Router>
 
   )
 }
