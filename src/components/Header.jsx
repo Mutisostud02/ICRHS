@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { useState } from "react"
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)  
@@ -16,10 +17,10 @@ export default function Header() {
         </button>
           <nav className={`navMenu ${menuOpen ? "open" : ""}`}>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">What we do</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/">Home</Link></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/about">About</Link></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/services">What we do</Link></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/contact">Contact</Link></li>
             </ul>
           </nav>
           </div>
