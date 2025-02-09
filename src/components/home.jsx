@@ -1,4 +1,4 @@
-export default function HomeOne({title, content, extraContent, src}) {
+export function HomeOne({title, content, extraContent, src}) {
     return (
         <div className="group1">
             <img src={src}/>
