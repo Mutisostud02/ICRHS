@@ -22,7 +22,7 @@ export default function HomePage() {
       <HomeOne
       src="/assets/icon-3.webp"
       title="Make a Donation"
-      content = "Join our global team of volunteers, who are working to create self-sufficient communities in Kenya by helping ICROSS International with fundraising, web development, in-person help with the communities, and much more."
+      content = "Join our global team of volunteers, who are working to create self-sufficient communities in Kenya by helping ICRHS International with fundraising, web development, in-person help with the communities, and much more."
       />
       </section>
       <section className='section2'>
@@ -78,7 +78,7 @@ export default function HomePage() {
         src="/assets/history.webp"
         size={200}
         title="Our History"
-        content="ICROSS began its work among pastoral communities in East Africa in 1979. For over 37 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS. Our core focus remains endangered pastoral communities"
+        content="ICRHS began its work among pastoral communities in East Africa in 1979. For over 37 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS. Our core focus remains endangered pastoral communities"
         />
         <HomeThree
         src="/assets/history2.webp"
