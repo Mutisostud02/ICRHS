@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function FooterDetails() {
     return (
         <div className="section4">
@@ -26,10 +27,14 @@ function FooterInfo2() {
     return (
         <div className="footer-info2">
             <h3>Recent Campaigns</h3>
-            <a href="">Laptops for School Children</a>
-            <a href="">Medical Clinic Outreach 4WD</a>
-            <a href="">Women Livestock Development</a>
-            <a href="">Creating Small-Medium Entrepreneurship for the Youth</a>
+            <ul>
+            <li><Link onClick={() => window.scrollTo(0, 0)} to="/about">Laptops for School Children</Link></li>
+            <li><Link onClick={() => window.scrollTo(0, 0)} to="/about">Medical Clinic Outreach 4WD</Link></li>
+            <li><Link onClick={() => window.scrollTo(0, 0)} to="/about">Women Livestock Development</Link></li>
+            <li><Link onClick={() => window.scrollTo(0, 0)} to="/about">Creating Small-Medium Entrepreneurship for the Youth</Link></li>
+
+            </ul>
+
         </div>
     )
 }
