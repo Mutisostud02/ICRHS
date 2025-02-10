@@ -20,4 +20,34 @@ const GoogleMapComponent = () => {
   );
 };
 
-export default GoogleMapComponent;
+export default function ContactPage() {
+  return (
+    <div className="contact-page">
+      <GoogleMapComponent/>
+      <div className="contact">
+        <div className="contact-info">
+          <h2>Get in Touch</h2>
+          <p>If you have questions about how to donate, want to offer ideas for fundraising, become a volunteer, or something else, don't hesitate to get in contact.
+          </p>
+          <span id="span"> </span>
+          <p id="welcome">We welcome all inquiries.</p>
+          <div className="contact-links">
+            <p>308, Turbo | Eldorect, Kenya</p>
+            <p>0202600171</p>
+            <p>info@icrhsinternational.com</p>
+          </div>
+        </div>
+        <form className="contact-form">
+          <div className="personal-details">
+          <input type="name" placeholder="name"/>
+          <input type="email" placeholder="email"/>
+          </div>
+          <div className="text-area">
+            <textarea cols="30" rows="5" placeholder="message.."></textarea>
+          </div>
+          <button>submit</button>
+        </form>
+    </div>
+    </div>
+  )
+}

@@ -40,6 +40,7 @@ export default function HomePage() {
         content="
                   There is a shortage of basic computers for rural child education and training. We hope to provide and supply second-hand used laptops refurbished by volunteers to rural school children and teachers in rural areas of Kenya."
                     
+        goal="Goal: $35,000"
         />
         <HomeTwo
         stylez={{ 
@@ -52,6 +53,8 @@ export default function HomePage() {
                  Rural villages in desert areas lack sufficient medical clinics or healthcare. We would like to provide a small four-wheel drive supply vehicle. Qualified local medical professionals could visit each remote community/village frequently to provide all public health and clinical medical services needed.
   
   "
+  goal="Goal: $45,000"
+
         
         />
         <HomeTwo
@@ -63,6 +66,7 @@ export default function HomePage() {
         title="Women Livestock Development"
         content="
                   Local African women are not financially independent from men. They do not have income-generating sources, which leads to disempowerment and exploitation by society. We would like to provide each village women’s gathering with goats, so that they can generate income for local mothers and their families."
+                  goal="Goal: $25,000"
         
         />
         </div>
