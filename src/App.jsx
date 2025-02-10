@@ -3,9 +3,10 @@ import HomePage from "./pages/Homepage"
 import AboutPage from "./pages/Aboutpage"
 import Header from './components/Header'
 import FooterDetails from './components/footer'
-import GoogleMapComponent from "./pages/ContactPage"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import ContactPage from "./pages/ContactPage"
+import Services from "./pages/WhatwedoPage"
 
 function ScrollToTop() {
     const { pathname } = useLocation();
@@ -30,7 +31,8 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/about" element={<AboutPage/>}/>
-      <Route path="/contact" element={<GoogleMapComponent/>}/>
+      <Route path="/contact" element={<ContactPage/>}/>
+      <Route path="/services" element={<Services/>}/>
     </Routes>
     <FooterDetails/>
       <hr/>
