@@ -564,7 +564,8 @@ hr:last-of-type{
 }
 .contact {
   max-width: 100%;
-  flex-direction: column
+  flex-direction: column;
+  padding: 2rem;
 }
 .contact-form{
   margin: 0;
