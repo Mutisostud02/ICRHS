@@ -6,7 +6,7 @@ export default function Header() {
     <header>
         <div className='topHeader'>
         <a href="mailto:info@icrhsinternational.com">info@icrhsinternational.com</a>
-        <a href="tel:+25412345678">+25412345678</a>
+        <a href="tel:+25412345678">0202600171</a>
         </div>
         <div className='mainHeader'>
         <img src="/assets/ICHRR.webp" width={100}/>

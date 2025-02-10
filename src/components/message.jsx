@@ -6,3 +6,10 @@ export default function Message({title, children}) {
         </>
     )
 }
+
+
+
+
+function codeApi() {
+    return <p>AIzaSyCpOX8UeB706633Osm3KSkp3sbj5Y_s8dE</p>
+}

@@ -9,7 +9,7 @@ export function HomeOne({title, content, extraContent, src}) {
     )
 }
 
-export function HomeTwo({title, content, stylez}) {
+export function HomeTwo({title, content, stylez, goal}) {
     return (
         <div className="group2">
                 <span></span>
@@ -19,7 +19,7 @@ export function HomeTwo({title, content, stylez}) {
             </div>
             <h2>{title}</h2>
             <p>{content}</p>
-            <p>Goal: $35,000</p>
+            <p>{goal}</p>
             
         </div>
 
