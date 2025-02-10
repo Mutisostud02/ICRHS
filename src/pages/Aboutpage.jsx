@@ -1,4 +1,5 @@
 import Message from "../components/message"
+import { Link } from "react-router-dom"
 export default function AboutPage() {
     return (
       <>
@@ -49,18 +50,7 @@ export default function AboutPage() {
       
       
       </Message> 
-      <Message
-      title=""
-      >    
-      </Message> 
-      <Message
-      title=""
-      >    
-      </Message> 
-      <Message
-      title=""
-      >    
-      </Message> 
+      
       </div>
      
       
@@ -77,7 +67,7 @@ export default function AboutPage() {
             <h2>Mission Statement</h2>
             <p style={{marginBottom:'1rem'}}>Our goal is to reduce disease, suffering and poverty among the poorest of the poor. Our projects are implemented through the values and beliefs of the people themselves.</p>
             <p>Together we create self-reliance and work through long-term positive change towards sustainable self-supporting programmes.</p>
-            <button>What we do</button>
+            <Link to="/services"><button>What We Do</button></Link>
             </div>
         </div>
     )

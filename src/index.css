@@ -529,7 +529,12 @@ hr:last-of-type{
   .group1:nth-of-type(2) {
     border-right: 0;
   }
-
+.about-intro{
+  background-position: 20% 75%;
+  background-image: url('/assets/sunset1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .about-group1{
   line-height: 25px;
   gap: 2rem;
@@ -560,6 +565,10 @@ hr:last-of-type{
 .contact {
   max-width: 100%;
   flex-direction: column
+}
+.contact-form{
+  margin: 0;
+  padding: 0;
 }
 .personal-details{
   flex-direction: column
