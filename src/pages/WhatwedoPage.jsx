@@ -4,12 +4,12 @@ export default function Services() {
     <>
       <div className='services-header'>
         <h1>What We Do</h1>
-        <p>Learn about ICROSS International's key areas of focus.</p>
+        <p>Learn about ICRHS International's key areas of focus.</p>
     <p><a>Home</a>/WHAT WE DO</p>
       </div>
       <section className="services-section">
         <Section1
-        title="ICROSS International is dedicated to the following:"
+        title="ICRHS International is dedicated to the following:"
         >
             <li>We prevent diseases and control epidemics.</li>
             <li>We create long-term changes in infant mortality.</li>
@@ -57,7 +57,7 @@ export default function Services() {
                       backgroundSize:'cover'
                      }}
                     title="Community Strengthening"
-                    content="This includes disease surveillance, women's group developments, technical support to small organisations, legal and material support, water and sanitation projects, ICROSS resource leverage, partnership development and networking."
+                    content="This includes disease surveillance, women's group developments, technical support to small organisations, legal and material support, water and sanitation projects, ICRHS resource leverage, partnership development and networking."
             />
                     <HomeTwo
                     stylez={{ 
@@ -66,7 +66,7 @@ export default function Services() {
                       backgroundSize:'cover'
                      }}
                     title="HIV/AIDS, TB and Malaria Prevention"
-                    content="This covers disease surveillance, women's group developments, technical support to small organisations, legal and material support, water and sanitation projects, ICROSS resource leverage, partnership development and networking."   
+                    content="This covers disease surveillance, women's group developments, technical support to small organisations, legal and material support, water and sanitation projects, ICRHS resource leverage, partnership development and networking."   
             />
                     <HomeTwo
                     stylez={{ 
