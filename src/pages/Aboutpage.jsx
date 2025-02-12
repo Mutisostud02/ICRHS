@@ -86,7 +86,7 @@ export default function AboutPage() {
              <img src="/assets/about5" style={{width:"250px"}}/>
             </div>
             <div className="about-group2Info">
-            <p style={{marginBottom:'1rem'}}>ICRHS began its work among pastoral communities in East Africa in 1979. For over 37 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS.</p>
+            <p style={{marginBottom:'1rem'}}>ICRHS began its work among pastoral communities in East Africa in 2005. For over 19 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS.</p>
             <p>We have worked in Samburu, Kajiado, Nakuru, Bungoma, Nzoia, Siaya, Bondo, Buret and Mumias in Kenya and Arusha, Dodoma and Monduli in Tanzania.</p>
             <p>In addition, we have provided technical and material support to an extensive network of partner National local NGOs and faith-based projects in 7 African countries and 5 in Asia. This has included the first series of global health courses in Nepal lectures in international development in Cambodia as well as program evaluations in other Southeast Asian countries.</p>
             <p>Our core focus remains endangered pastoral communities across Kenya’s Rift Valley.</p>
