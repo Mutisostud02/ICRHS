@@ -75,7 +75,7 @@ export default function HomePage() {
         <HomeThree
         src="/assets/person.webp"
         size={50}
-        title="Michael Meegan"
+        title="Andrew Sang Kirwa"
         content="Founder of ICRHS International"
         />
         <HomeThree
