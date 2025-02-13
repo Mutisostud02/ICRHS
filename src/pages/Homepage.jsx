@@ -82,7 +82,7 @@ export default function HomePage() {
         src="/assets/history.webp"
         size={200}
         title="Our History"
-        content="ICRHS began its work among pastoral communities in East Africa in 1979. For over 37 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS. Our core focus remains endangered pastoral communities"
+        content="ICRHS began its work among pastoral communities in East Africa in 2005. For over 19 years, we gradually extended the coverage of our work from central Kenya to vulnerable communities in the Western counties of Kenya, particularly in the areas of HIV/AIDS. Our core focus remains endangered pastoral communities"
         />
         <HomeThree
         src="/assets/history2.webp"
