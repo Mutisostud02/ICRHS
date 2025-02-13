@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ContactPage from "./pages/ContactPage"
 import Services from "./pages/WhatwedoPage"
+import BackToTop from "./components/BackToTop"; // Import the button
+
 
 function ScrollToTop() {
     const { pathname } = useLocation();
@@ -35,6 +37,7 @@ function App() {
       <Route path="/services" element={<Services/>}/>
     </Routes>
     <FooterDetails/>
+    <BackToTop />
       <hr/>
       <footer>
         <div>

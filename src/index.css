@@ -76,6 +76,42 @@ h1, h2, h3, h4, h5, h6 {
   left:0;
   width: 380px;
 }
+.about-intro a {
+  font-weight: bold;
+  font-size: large;
+  font-size: 24px;  
+  color:rgb(68, 153, 168);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.about-intro a:hover {
+  color: rgb(117, 188, 190);
+}
+
+.about-intro p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: large;
+  font-size: 24px;  
+  color:chartreuse
+}
+.services-header a {
+  font-weight: bold;
+  font-size: large;
+  font-size: 24px;  
+  color:rgb(68, 153, 168);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.services-header a:hover {
+  color: rgb(117, 188, 190);
+}
+
+.services-header p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: large;
+  font-size: 24px;  
+  color:chartreuse
+}
 header {
   width: 100%;
 }
