@@ -5,7 +5,7 @@ export default function AboutPage() {
       <>
       <div className='about-intro'>
         <h1>About Us</h1>
-        <p>ICRHS is an international NGO with a long history working in partnership with
+        <p>International Community for Relief Hunger and Starvation (ICRHS) is an international NGO with a long history working in partnership with
   civil society organisations, non-governmental organisations, governments
   and bilateral agencies, including the Global Fund, the European Union,
   the World Health Organisation, UNICEF, and other local communities.

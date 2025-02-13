@@ -37,7 +37,7 @@ export default function ContactPage() {
             <p>info@icrhsinternational.org</p>
           </div>
         </div>
-        <form action="https://formsubmit.co/info@icrhsinternational.org" method="POST" className="contact-form">
+        <form action="https://formsubmit.co/6037ecf284436365003f48ae4cefa03c" method="POST" className="contact-form">
           <div className="personal-details">
           <input type="name" placeholder="Your name required"/>
           <input type="email" name="email" placeholder="Your email" required/>
