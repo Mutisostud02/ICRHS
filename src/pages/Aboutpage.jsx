@@ -11,7 +11,7 @@ export default function AboutPage() {
   and bilateral agencies, including the Global Fund, the European Union,
   the World Health Organisation, UNICEF, and other local communities.
   </p>
-    <p><a>Home</a>/About</p>
+    <p><a><Link to="/home">Home</Link></a>/About</p>
       </div>
       <div className="about-section1">
       <Section1 src="/assets/about2" />
