@@ -34,18 +34,18 @@ export default function ContactPage() {
           <div className="contact-links">
             <p>308, Turbo | Eldorect, Kenya</p>
             <p>0202600171</p>
-            <p>info@icrhsinternational.com</p>
+            <p>info@icrhsinternational.org</p>
           </div>
         </div>
-        <form className="contact-form">
+        <form action="https://formsubmit.co/info@icrhsinternational.org" method="POST" className="contact-form">
           <div className="personal-details">
-          <input type="name" placeholder="name"/>
-          <input type="email" placeholder="email"/>
+          <input type="name" placeholder="Your name required"/>
+          <input type="email" name="email" placeholder="Your email" required/>
           </div>
           <div className="text-area">
-            <textarea cols="30" rows="5" placeholder="message.."></textarea>
+            <textarea cols="30" rows="5" name="message" placeholder="Your message.."></textarea>
           </div>
-          <button>submit</button>
+          <button>Send</button>
         </form>
     </div>
     </div>
