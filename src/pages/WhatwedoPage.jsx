@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { HomeTwo } from "../components/home"
 export default function Services() {
     return (
@@ -5,7 +6,7 @@ export default function Services() {
       <div className='services-header'>
         <h1>What We Do</h1>
         <p>Learn about ICRHS International's key areas of focus.</p>
-    <p><a>Home</a>/WHAT WE DO</p>
+    <p><a><Link to="/">HOME</Link></a>/WHAT WE DO</p>
       </div>
       <section className="services-section">
         <Section1
