@@ -15,12 +15,12 @@
 </url>
 
     <url>
-        <loc>https://icrhsinternational.org/about</loc>
+        <loc>https://www.icrhsinternational.org/about</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://icrhsinternational.org/contact</loc>
+        <loc>https://www.icrhsinternational.org/contact</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
