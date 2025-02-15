@@ -19,7 +19,7 @@ export default function AboutPage() {
       <Message
       title="Africanisation"
       >
-      <p>We are proud that since 2001 all ICRHS programmes were completely managed by Africans. All project managers, supervisors, trainers, field teams and community staff are African. While these teams provide learning opportunities for intern and volunteer partnerships, the Africanisation of all projects has been a vital component of the success and continuity of the programmes.
+      <p>We are proud that since 2005 all ICRHS programmes were completely managed by Africans. All project managers, supervisors, trainers, field teams and community staff are African. While these teams provide learning opportunities for intern and volunteer partnerships, the Africanisation of all projects has been a vital component of the success and continuity of the programmes.
       </p>
       </Message>
       <Message 
