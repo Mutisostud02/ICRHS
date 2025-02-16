@@ -9,7 +9,7 @@ export default function Header() {
         <a href="tel:+25412345678">0202600171</a>
         </div>
         <div className='mainHeader'>
-        <img src="/assets/ICHRR.webp" width={100}/>
+        <img src="/assets/ICRHS.webp" width={100}/>
         <button
         className="menuButton"
         onClick={() => setMenuOpen(!menuOpen)}>
