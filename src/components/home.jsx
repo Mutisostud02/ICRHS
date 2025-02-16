@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export function HomeOne({title, content, extraContent, src}) {
     return (
         <div className="group1">
@@ -14,7 +15,7 @@ export function HomeTwo({title, content, stylez, goal}) {
         <div className="group2">
                 <span></span>
             <div style={stylez}>
-                <button>Donate+</button>
+                <Link to="/contact"><button>Donate+</button></Link>
                 <span></span>
             </div>
             <h2>{title}</h2>
